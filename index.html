@@ -5,21 +5,27 @@
         <title>Tabela periódica</title>
         <style>
             table{
-                width: 1680px;
-                height: 945px;
+                width: 1400px;
+                height: 400px;
             }
             td,tr{
                 border: 1px solid black;
                 border-collapse: collapse;
                 text-align: center;
                 vertical-align: middle;
-                width:80px; 
-                height:80px;
+                width:70px; 
+                height:70px;
                 font-weight: bold;
-                font-size: 25px;
+                font-size: 20px;
             }
             p{
-                font-size: 15px;
+                font-size: 12px;
+            }
+            a{
+            position: absolute; 
+            text-align: left; 
+            margin-left: -25px; 
+            margin-top: -5px;
             }
             .branco{
                 border: white;
@@ -64,7 +70,7 @@
         <center>
             <table>
                     <tr> <!--Linha 1-->
-                        <td class="nmetais"><a style="position: absolute; text-align: left; margin-left: -25px; margin-top: -5px;">1</a>H<p>Hidrogênio</p></td>
+                        <td class="nmetais"><a>1</a>H<p>Hidrogênio</p></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
@@ -81,11 +87,11 @@
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
-                        <td class="gasesnobres"><a style="position: absolute; text-align: left; margin-left: -25px; margin-top: -5px;">2</a>He<p>Hélio</p></td>
+                        <td class="gasesnobres"><a>2</a>He<p>Hélio</p></td>
                     </tr>
                     <tr> <!--Linha 2-->
-                        <td class="metais">Li<p>Lítio</p></td>
-                        <td class="metaisterrosos">Be<p>Berílio</p></td>
+                        <td class="metais"><a>3</a>Li<p>Lítio</p></td>
+                        <td class="metaisterrosos"><a>4</a>Be<p>Berílio</p></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
@@ -96,16 +102,16 @@
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
-                        <td class="semimetais">B<p>Boro</p></td>
-                        <td class="nmetais">C<p>Carbono</p></td>
-                        <td class="nmetais">N<p>Nitrogênio</p></td>
-                        <td class="nmetais">O<p>Oxigênio</p></td>
-                        <td class="halogenios">F<p>Flúor</p></td>
-                        <td class="gasesnobres">Ne<p>Neônio</p></td>
+                        <td class="semimetais"><a>5</a>B<p>Boro</p></td>
+                        <td class="nmetais"><a>6</a>C<p>Carbono</p></td>
+                        <td class="nmetais"><a>7</a>N<p>Nitrogênio</p></td>
+                        <td class="nmetais"><a>8</a>O<p>Oxigênio</p></td>
+                        <td class="halogenios"><a>9</a>F<p>Flúor</p></td>
+                        <td class="gasesnobres"><a>10</a>Ne<p>Neônio</p></td>
                     </tr>
                     <tr> <!--Linha 3-->
-                        <td class="metais">Na<p>Sódio</p></td>
-                        <td class="metaisterrosos">Mg<p>Magnésio</p></td>
+                        <td class="metais"><a>11</a>Na<p>Sódio</p></td>
+                        <td class="metaisterrosos"><a>12</a>Mg<p>Magnésio</p></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
@@ -116,91 +122,91 @@
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
-                        <td class="outrosmetais">Al<p>Alumínio</p></td>
-                        <td class="semimetais">Si<p>Silício</p></td>
-                        <td class="nmetais">P<p>Fósforo</p></td>
-                        <td class="nmetais">S<p>Enxofre</p></td>
-                        <td class="halogenios">Cl<p>Cloro</p></td>
-                        <td class="gasesnobres">Ar<p>Argônio</p></td>
+                        <td class="outrosmetais"><a>13</a>Al<p>Alumínio</p></td>
+                        <td class="semimetais"><a>14</a>Si<p>Silício</p></td>
+                        <td class="nmetais"><a>15</a>P<p>Fósforo</p></td>
+                        <td class="nmetais"><a>16</a>S<p>Enxofre</p></td>
+                        <td class="halogenios"><a>17</a>Cl<p>Cloro</p></td>
+                        <td class="gasesnobres"><a>18</a>Ar<p>Argônio</p></td>
                     <tr> <!--Linha 4-->
-                        <td class="metais">K<p>Potássio</p></td>
-                        <td class="metaisterrosos">Ca<p>Cálcio</p></td>
-                        <td class="metaistransicao">Sc<p>Escândio</p></td>
-                        <td class="metaistransicao">Ti<p>Titânio</p></td>
-                        <td class="metaistransicao">V<p>Vanádio</p></td>
-                        <td class="metaistransicao">Cr<p>Crômio</p></td>
-                        <td class="metaistransicao">Mn<p>Manganês</p></td>
-                        <td class="metaistransicao">Fe<p>Ferro</p></td>
-                        <td class="metaistransicao">Co<p>Cobalto</p></td>
-                        <td class="metaistransicao">Ni<p>Níquel</p></td>
-                        <td class="metaistransicao">Cu<p>Cobre</p></td>
-                        <td class="metaistransicao">Zn<p>Zinco</p></td>
-                        <td class="outrosmetais">Ga<p>Gálio</p></td>
-                        <td class="semimetais">Ge<p>Germânio</p></td>
-                        <td class="semimetais">As<p>Arsênio</p></td>
-                        <td class="nmetais">Se<p>Selênio</p></td>
-                        <td class="halogenios">Br<p>Bromo</p></td>
-                        <td class="gasesnobres">Kr<p>Criptônio</p></td>
+                        <td class="metais"><a>19</a>K<p>Potássio</p></td>
+                        <td class="metaisterrosos"><a>20</a>Ca<p>Cálcio</p></td>
+                        <td class="metaistransicao"><a>21</a>Sc<p>Escândio</p></td>
+                        <td class="metaistransicao"><a>22</a>Ti<p>Titânio</p></td>
+                        <td class="metaistransicao"><a>23</a>V<p>Vanádio</p></td>
+                        <td class="metaistransicao"><a>24</a>Cr<p>Crômio</p></td>
+                        <td class="metaistransicao"><a>25</a>Mn<p>Manganês</p></td>
+                        <td class="metaistransicao"><a>26</a>Fe<p>Ferro</p></td>
+                        <td class="metaistransicao"><a>27</a>Co<p>Cobalto</p></td>
+                        <td class="metaistransicao"><a>28</a>Ni<p>Níquel</p></td>
+                        <td class="metaistransicao"><a>29</a>Cu<p>Cobre</p></td>
+                        <td class="metaistransicao"><a>30</a>Zn<p>Zinco</p></td>
+                        <td class="outrosmetais"><a>31</a>Ga<p>Gálio</p></td>
+                        <td class="semimetais"><a>32</a>Ge<p>Germânio</p></td>
+                        <td class="semimetais"><a>33</a>As<p>Arsênio</p></td>
+                        <td class="nmetais"><a>34</a>Se<p>Selênio</p></td>
+                        <td class="halogenios"><a>35</a>Br<p>Bromo</p></td>
+                        <td class="gasesnobres"><a>36</a>Kr<p>Criptônio</p></td>
                     </tr>    
                     <tr> <!--Linha 5-->
-                        <td class="metais">Rb<p>Rubídio</p></td>
-                        <td class="metaisterrosos">Sr<p>Estrôncio</p></td>
-                        <td class="metaistransicao">Y<p>Ítrio</p></td>
-                        <td class="metaistransicao">Zr<p>Zircônio</p></td>
-                        <td class="metaistransicao">Nb<p>Nióbio</p></td>
-                        <td class="metaistransicao">Mo<p>Molibdênio</p></td>
-                        <td class="metaistransicao">Tc<p>Tecnécio</p></td>
-                        <td class="metaistransicao">Ru<p>Rutênio</p></td>
-                        <td class="metaistransicao">Rh<p>Pódio</p></td>
-                        <td class="metaistransicao">Pd<p>Paládio</p></td>
-                        <td class="metaistransicao">Ag<p>Prata</p></td>
-                        <td class="metaistransicao">Cd<p>Cádmio</p></td>
-                        <td class="outrosmetais">In<p>Índio</p></td>
-                        <td class="outrosmetais">Sn<p>Estanho</p></td>
-                        <td class="semimetais">Sb<p>Antimônio</p></td>
-                        <td class="semimetais">Te<p>Telúrio</p></td>
-                        <td class="halogenios">I<p>Íodo</p></td>
-                        <td class="gasesnobres">Xe<p>Xenônio</p></td>
+                        <td class="metais"><a>37</a>Rb<p>Rubídio</p></td>
+                        <td class="metaisterrosos"><a>38</a>Sr<p>Estrôncio</p></td>
+                        <td class="metaistransicao"><a>39</a>Y<p>Ítrio</p></td>
+                        <td class="metaistransicao"><a>40</a>Zr<p>Zircônio</p></td>
+                        <td class="metaistransicao"><a>41</a>Nb<p>Nióbio</p></td>
+                        <td class="metaistransicao"><a>42</a>Mo<p>Molibdênio</p></td>
+                        <td class="metaistransicao"><a>43</a>Tc<p>Tecnécio</p></td>
+                        <td class="metaistransicao"><a>44</a>Ru<p>Rutênio</p></td>
+                        <td class="metaistransicao"><a>45</a>Rh<p>Pódio</p></td>
+                        <td class="metaistransicao"><a>46</a>Pd<p>Paládio</p></td>
+                        <td class="metaistransicao"><a>47</a>Ag<p>Prata</p></td>
+                        <td class="metaistransicao"><a>48</a>Cd<p>Cádmio</p></td>
+                        <td class="outrosmetais"><a>49</a>In<p>Índio</p></td>
+                        <td class="outrosmetais"><a>50</a>Sn<p>Estanho</p></td>
+                        <td class="semimetais"><a>51</a>Sb<p>Antimônio</p></td>
+                        <td class="semimetais"><a>52</a>Te<p>Telúrio</p></td>
+                        <td class="halogenios"><a>53</a>I<p>Íodo</p></td>
+                        <td class="gasesnobres"><a>54</a>Xe<p>Xenônio</p></td>
                     </tr>
                     <tr> <!--Linha 6-->
-                        <td class="metais">Cs<p>Césio</td>
-                        <td class="metaisterrosos">Ba<p>Bário</p></td>
+                        <td class="metais"><a>55</a>Cs<p>Césio</td>
+                        <td class="metaisterrosos"><a>56</a>Ba<p>Bário</p></td>
                         <td class="branco"></td>
-                        <td class="metaistransicao">Hf<p>Háfnio</p></td>
-                        <td class="metaistransicao">Ta<p>Tântalo</p></td>
-                        <td class="metaistransicao">W<p>Tungstênio</p></td>
-                        <td class="metaistransicao">Re<p>Rênio</p></td>
-                        <td class="metaistransicao">Os<p>Ósmio</p></td>
-                        <td class="metaistransicao">Ir<p>Irídio</p></td>
-                        <td class="metaistransicao">Pt<p>Platina</p></td>
-                        <td class="metaistransicao">Au<p>Ouro</p></td>
-                        <td class="metaistransicao">Hg<p>Mercúrio</p></td>
-                        <td class="outrosmetais">Tl<p>Tálio</p></td>
-                        <td class="outrosmetais">Pb<p>Chumbo</p></td>
-                        <td class="outrosmetais">Bi<p>Bismuto</p></td>
-                        <td class="semimetais">Po<p>Polônio</p></td>
-                        <td class="halogenios">At<p>Astato</p></td>
-                        <td class="gasesnobres">Rn<p>Radônio</p></td>
+                        <td class="metaistransicao"><a>57</a>Hf<p>Háfnio</p></td>
+                        <td class="metaistransicao"><a>58</a>Ta<p>Tântalo</p></td>
+                        <td class="metaistransicao"><a>59</a>W<p>Tungstênio</p></td>
+                        <td class="metaistransicao"><a>60</a>Re<p>Rênio</p></td>
+                        <td class="metaistransicao"><a>61</a>Os<p>Ósmio</p></td>
+                        <td class="metaistransicao"><a>62</a>Ir<p>Irídio</p></td>
+                        <td class="metaistransicao"><a>63</a>Pt<p>Platina</p></td>
+                        <td class="metaistransicao"><a>64</a>Au<p>Ouro</p></td>
+                        <td class="metaistransicao"><a>65</a>Hg<p>Mercúrio</p></td>
+                        <td class="outrosmetais"><a>66</a>Tl<p>Tálio</p></td>
+                        <td class="outrosmetais"><a>67</a>Pb<p>Chumbo</p></td>
+                        <td class="outrosmetais"><a>68</a>Bi<p>Bismuto</p></td>
+                        <td class="semimetais"><a>69</a>Po<p>Polônio</p></td>
+                        <td class="halogenios"><a>70</a>At<p>Astato</p></td>
+                        <td class="gasesnobres"><a>71</a>Rn<p>Radônio</p></td>
                     </tr>
                     <tr> <!--Linha 7-->
-                        <td class="metais">Fr<p>Frâncio</p></td>
-                        <td class="metaisterrosos">Ra<p>Rádio</p></td>
+                        <td class="metais"><a>72</a>Fr<p>Frâncio</p></td>
+                        <td class="metaisterrosos"><a>73</a>Ra<p>Rádio</p></td>
                         <td class="branco"></td>
-                        <td class="metaistransicao">Rf<p>Rutherfórdio</p></td>
-                        <td class="metaistransicao">Db<p>Dúbnio</p></td>
-                        <td class="metaistransicao">Sg<p>Seabórgio</p></td>
-                        <td class="metaistransicao">Bh<p>Bóhrio</p></td>
-                        <td class="metaistransicao">Hs<p>Hássio</p></td>
-                        <td class="metaistransicao">Mt<p>Meltnério</p></td>
-                        <td class="metaistransicao">Ds<p>Darmstádtio</p></td>
-                        <td class="metaistransicao">Rg<p>Roentgênio</p></td>
-                        <td class="metaistransicao">Cn<p>Copernício</p></td>
-                        <td class="outrosmetais">Nh<p>Nihônio</p></td>
-                        <td class="outrosmetais">Fl<p>Fleróvio</p></td>
-                        <td class="outrosmetais">Mc<p>Moscóvio</p></td>
-                        <td class="outrosmetais">Lv<p>Livermório</p></td>
-                        <td class="halogenios">Ts<p>Tenessio</p></td>
-                        <td class="gasesnobres">Og<p>Oganessônio</p></td>
+                        <td class="metaistransicao"><a>74</a>Rf<p>Rutherfórdio</p></td>
+                        <td class="metaistransicao"><a>75</a>Db<p>Dúbnio</p></td>
+                        <td class="metaistransicao"><a>76</a>Sg<p>Seabórgio</p></td>
+                        <td class="metaistransicao"><a>77</a>Bh<p>Bóhrio</p></td>
+                        <td class="metaistransicao"><a>78</a>Hs<p>Hássio</p></td>
+                        <td class="metaistransicao"><a>79</a>Mt<p>Meltnério</p></td>
+                        <td class="metaistransicao"><a>80</a>Ds<p>Darmstádtio</p></td>
+                        <td class="metaistransicao"><a>81</a>Rg<p>Roentgênio</p></td>
+                        <td class="metaistransicao"><a>82</a>Cn<p>Copernício</p></td>
+                        <td class="outrosmetais"><a>83</a>Nh<p>Nihônio</p></td>
+                        <td class="outrosmetais"><a>84</a>Fl<p>Fleróvio</p></td>
+                        <td class="outrosmetais"><a>85</a>Mc<p>Moscóvio</p></td>
+                        <td class="outrosmetais"><a>86</a>Lv<p>Livermório</p></td>
+                        <td class="halogenios"><a>87</a>Ts<p>Tenessio</p></td>
+                        <td class="gasesnobres"><a>88</a>Og<p>Oganessônio</p></td>
                     </tr>
                     <tr> <!--Linha 8-->
                         <td class="branco"></td>
@@ -226,41 +232,41 @@
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
-                        <td class="lantanideos">La<p>Lantânio</p></td>
-                        <td class="lantanideos">Ce<p>Cério</p></td>
-                        <td class="lantanideos">Pr<p>Praseodímio</p></td>
-                        <td class="lantanideos">Nd<p>Neodímio</p></td>
-                        <td class="lantanideos">Pm<p>Promécio</p></td>
-                        <td class="lantanideos">Sm<p>Samário</p></td>
-                        <td class="lantanideos">Eu<p>Európio</p></td>
-                        <td class="lantanideos">Gd<p>Gadolínio</p></td>
-                        <td class="lantanideos">Tb<p>Térbio</p></td>
-                        <td class="lantanideos">Dy<p>DIsprósio</p></td>
-                        <td class="lantanideos">Ho<p>Hólmio</p></td>
-                        <td class="lantanideos">Er<p>Érbio</p></td>
-                        <td class="lantanideos">Tm<p>Túlio</p></td>
-                        <td class="lantanideos">Yb<p>Itérbio</p></td>
-                        <td class="lantanideos">Lu<p>Lutécio</p></td>
+                        <td class="lantanideos"><a>89</a>La<p>Lantânio</p></td>
+                        <td class="lantanideos"><a>90</a>Ce<p>Cério</p></td>
+                        <td class="lantanideos"><a>91</a>Pr<p>Praseodímio</p></td>
+                        <td class="lantanideos"><a>92</a>Nd<p>Neodímio</p></td>
+                        <td class="lantanideos"><a>93</a>Pm<p>Promécio</p></td>
+                        <td class="lantanideos"><a>94</a>Sm<p>Samário</p></td>
+                        <td class="lantanideos"><a>95</a>Eu<p>Európio</p></td>
+                        <td class="lantanideos"><a>96</a>Gd<p>Gadolínio</p></td>
+                        <td class="lantanideos"><a>97</a>Tb<p>Térbio</p></td>
+                        <td class="lantanideos"><a>98</a>Dy<p>DIsprósio</p></td>
+                        <td class="lantanideos"><a>99</a>Ho<p>Hólmio</p></td>
+                        <td class="lantanideos"><a>100</a>Er<p>Érbio</p></td>
+                        <td class="lantanideos"><a>101</a>Tm<p>Túlio</p></td>
+                        <td class="lantanideos"><a>102</a>Yb<p>Itérbio</p></td>
+                        <td class="lantanideos"><a>103</a>Lu<p>Lutécio</p></td>
                     </tr>
                     <tr> <!--Linha 10-->
                         <td class="branco"></td>
                         <td class="branco"></td>
                         <td class="branco"></td>
-                        <td class="actinidios">Ac<p>Actínicio</p></td>
-                        <td class="actinidios">Th<p>Tório</p></td>
-                        <td class="actinidios">Pa<p>Protactínio</p></td>
-                        <td class="actinidios">U<p>Urânio</p></td>
-                        <td class="actinidios">Np<p>Netúnio</p></td>
-                        <td class="actinidios">Pu<p>Plutônio</p></td>
-                        <td class="actinidios">Am<p>Amerício</p></td>
-                        <td class="actinidios">Cm<p>Cúrio</p></td>
-                        <td class="actinidios">Bk<p>Berquélio</p></td>
-                        <td class="actinidios">Cf<p>Califórnio</p></td>
-                        <td class="actinidios">Es<p>Einstênio</p></td>
-                        <td class="actinidios">Fm<p>Férmio</p></td>
-                        <td class="actinidios">Md<p>Mendelévio</p></td>
-                        <td class="actinidios">No<p>Nobélio</p></td>
-                        <td class="actinidios">Lr<p>Laurêncio</p></td>
+                        <td class="actinidios"><a>104</a>Ac<p>Actínicio</p></td>
+                        <td class="actinidios"><a>105</a>Th<p>Tório</p></td>
+                        <td class="actinidios"><a>106</a>Pa<p>Protactínio</p></td>
+                        <td class="actinidios"><a>107</a>U<p>Urânio</p></td>
+                        <td class="actinidios"><a>108</a>Np<p>Netúnio</p></td>
+                        <td class="actinidios"><a>109</a>Pu<p>Plutônio</p></td>
+                        <td class="actinidios"><a>110</a>Am<p>Amerício</p></td>
+                        <td class="actinidios"><a>111</a>Cm<p>Cúrio</p></td>
+                        <td class="actinidios"><a>112</a>Bk<p>Berquélio</p></td>
+                        <td class="actinidios"><a>113</a>Cf<p>Califórnio</p></td>
+                        <td class="actinidios"><a>114</a>Es<p>Einstênio</p></td>
+                        <td class="actinidios"><a>115</a>Fm<p>Férmio</p></td>
+                        <td class="actinidios"><a>116</a>Md<p>Mendelévio</p></td>
+                        <td class="actinidios"><a>117</a>No<p>Nobélio</p></td>
+                        <td class="actinidios"><a>118</a>Lr<p>Laurêncio</p></td>
                     </tr>
             </table>
         </center>
